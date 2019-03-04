@@ -69,5 +69,10 @@ remote_leela.bat
 
 #### Lizzie
 
+直接运行lizzie.jar即可。
+
+![lizzie](./images/lizzie.png)
+
+
 ### Linux
 
