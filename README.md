@@ -10,6 +10,8 @@
 | 可执行文件 | /leela_zero/src/build/leelaz |
 | 权重文件   | /leela_zero/data/best-network.gz|
 
+root用户默认密码为root_for_leelaz，需要自己修改。
+
 ## 如何部署
 
 ### 自行build镜像
