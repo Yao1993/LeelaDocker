@@ -1,0 +1,2 @@
+call settings.bat
+.\OpenSSH-Win32\ssh.exe root@%HOST_IP% -i .\.ssh\id_rsa -p %PORT% -o UserKnownHostsFile=.\.ssh\tmp_known_hosts curl -L http://zero.sjeng.org/best-network -o /leela_zero/data/best-network.gz
