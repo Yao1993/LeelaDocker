@@ -1,3 +1,5 @@
+call settings.bat
+
 mkdir .\.ssh\
 
 .\OpenSSH-Win32\ssh-keygen.exe -t rsa -b 4096 -f .\.ssh\id_rsa
