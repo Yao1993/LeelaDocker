@@ -45,6 +45,20 @@ remote_leela.bat
 需要注意的是leela第一次运行时会进行tune，需要等待比较长的时间。
 测试没有问题后，就可以用GUI程序了。
 
+以上操作在第一次建立容器时没有问题。
+但在重新运行容器后，ssh会报错，警告现有机器与之前不一致。这时候请手动删除
+`client\.ssh`。然后重新执行上述步骤。
+
+如果想要手动更新权重请使用：
+
+``` bat
+cd client
+update_weights.bat
+```
+
+
+
+
 #### GoGui
 
 `Program`->`New Program`，填写相关信息。
