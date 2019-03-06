@@ -1,4 +1,4 @@
-FROM yao11/leelaz_core
+FROM yao11/leela:core
 
 RUN apt install -y curl
 RUN mkdir -p /leela_zero/data
