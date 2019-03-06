@@ -14,20 +14,12 @@ root用户默认密码为root_for_leelaz，需要自己修改。
 
 ## 如何部署
 
-### 自行build镜像
-
-```bash
-sh build.sh
-sh docker_run.sh
-```
-
-### 使用Docker Hub
-
+推荐直接使用带有权重的`yao11/leela:with_networ`。
 ```bash
  docker run -d --name='Leela-zero' \
     -p 32222:22 \
     --runtime=nvidia \
-    yao11/leela:latest
+    yao11/leela:with_network
 ```
 
 ## 客户端
